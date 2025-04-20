@@ -1,4 +1,5 @@
 aiogram
+pip install aiocron
 aiohttp
 python-dotenv
 fastapi
