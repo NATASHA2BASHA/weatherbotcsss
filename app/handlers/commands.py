@@ -184,7 +184,7 @@ async def process_unsubscribe_city(message: Message, state: FSMContext):
     db.close()
     await state.clear()
 
-# Правка логики списка подписок
+
 
 @router.message(F.text == "Мои города")
 async def my_cities(message: Message):
